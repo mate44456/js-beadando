@@ -11,7 +11,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-     <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <script src="kviz.js"></script>
 </head>
 
 <body>
@@ -41,7 +42,133 @@
 
     <div class="container-fluid col-10 tartalom mt-3">
         <h1>The Witcher 3</h1>
-    </div>
+
+        <form name="kviz">
+            <div class="row">
+<div class="container col-5">
+        <p>Mi Geralt fő fegyvere a szörnyek ellen?</p>
+        <input type="radio" id="a" name="kerdes0" value="a">
+        <label form="a">Ezüst kard mutánsok és emberek ellen</label><br>
+        <input type="radio" id="a" name="kerdes0" value="b">
+        <label form="b">Acél kard emberek ellen, ezüst szörnyek ellen</label><br>
+        <input type="radio" id="a" name="kerdes0" value="c">
+        <label form="c">Mindkét kard ezüstből készült</label><br>
+        <input type="radio" id="a" name="kerdes0" value="d">
+        <label form="d">Csak mágia, kardot ritkán használ</label><br>
+</div>
+<div class="container col-5">
+        <p>Mi köti össze Geralt-ot és Yennefer-t?</p>
+        <input type="radio" id="a" name="kerdes1" value="a">
+        <label form="a">Egy szerződés a királlyal</label><br>
+        <input type="radio" id="a" name="kerdes1" value="b">
+        <label form="b">Egy djinn által kimondott kívánság</label><br>
+        <input type="radio" id="a" name="kerdes1" value="c">
+        <label form="c">Gyermekkori barátság</label><br>
+        <input type="radio" id="a" name="kerdes1" value="d">
+        <label form="d">Véletlen találkozás egy tavernában</label><br>
+</div>
+</div>
+<div class="row">
+<div class="container col-5">
+        <p>Milyen különleges képessége van Ciri-nek?</p>
+        <input type="radio" id="a" name="kerdes2" value="a">
+        <label form="a">Tűzvarázslás</label><br>
+        <input type="radio" id="a" name="kerdes2" value="b">
+        <label form="b">Állatok megszelídítése</label><br>
+        <input type="radio" id="a" name="kerdes2" value="c">
+        <label form="c">Tér és idő manipulálása</label><br>
+        <input type="radio" id="a" name="kerdes2" value="d">
+        <label form="d">Láthatatlanság</label><br>
+</div>
+<div class="container col-5">
+        <p>Ki vagy mi a Wild Hunt?</p>
+        <input type="radio" id="a" name="kerdes3" value="a">
+        <label form="a">Geralt régi witcher csapata</label><br>
+        <input type="radio" id="a" name="kerdes3" value="b">
+        <label form="b">Egy legendás szörny</label><br>
+        <input type="radio" id="a" name="kerdes3" value="c">
+        <label form="c">Widmokin lovasok, akik lelkeket gyűjtenek</label><br>
+        <input type="radio" id="a" name="kerdes3" value="d">
+        <label form="d">Egy varázslókat üldöző szervezet</label><br>
+</div>
+</div>
+<div class="row">
+<div class="container col-5">
+        <p>Mi történik a witcherekkel a 'Próba' során?</p>
+        <input type="radio" id="a" name="kerdes4" value="a">
+        <label form="a">Kard harci kiképzést kapnak</label><br>
+        <input type="radio" id="a" name="kerdes4" value="b">
+        <label form="b">Mágikus szertartáson vesznek részt</label><br>
+        <input type="radio" id="a" name="kerdes4" value="c">
+        <label form="c">Mutagén kezeléseken esnek át, sok meghal</label><br>
+        <input type="radio" id="a" name="kerdes4" value="d">
+        <label form="d">Egy szörnyölelés rituálét hajtanak végre</label><br>
+</div>
+<div class="container col-5">
+        <p>Miért veszélyes Novigrad a varázslóknak?</p>
+        <input type="radio" id="a" name="kerdes5" value="a">
+        <label form="a">A város vezetése varázslóellenes</label><br>
+        <input type="radio" id="a" name="kerdes5" value="b">
+        <label form="b">Egy átok sújtja a várost</label><br>
+        <input type="radio" id="a" name="kerdes5" value="c">
+        <label form="c">Túl drága ott élni</label><br>
+        <input type="radio" id="a" name="kerdes5" value="d">
+        <label form="d">Szörnyek lepték el</label><br>
+</div>
+</div>
+<div class="row">
+<div class="container col-5">
+        <p>Miért különleges Triss a többi varázslóhoz képest?</p>
+        <input type="radio" id="a" name="kerdes6" value="a">
+        <label form="a">Ő a legerősebb varázslónő</label><br>
+        <input type="radio" id="a" name="kerdes6" value="b">
+        <label form="b">Allergiás a mágikus elixírekre</label><br>
+        <input type="radio" id="a" name="kerdes6" value="c">
+        <label form="c">Nem tud bizonyos mágiákat használni</label><br>
+        <input type="radio" id="a" name="kerdes6" value="d">
+        <label form="d">Witcher kiképzést kapott</label><br>
+</div>
+<div class="container col-5">
+        <p>Mi jellemző a skellige-i klánokra?</p>
+        <input type="radio" id="a" name="kerdes7" value="a">
+        <label form="a">Kereskedelemből élnek</label><br>
+        <input type="radio" id="a" name="kerdes7" value="b">
+        <label form="b">Pacifisták</label><br>
+        <input type="radio" id="a" name="kerdes7" value="c">
+        <label form="c">Vikingszerű, harcos kultúra</label><br>
+        <input type="radio" id="a" name="kerdes7" value="d">
+        <label form="d">Varázslókat képeznek</label><br>
+</div>
+</div>
+
+<div class="row">
+<div class="container col-5">
+        <p>Mi a Gwent a Witcher világában?</p>
+        <input type="radio" id="a" name="kerdes8" value="a">
+        <label form="a">Egy harci stílus neve</label><br>
+        <input type="radio" id="a" name="kerdes8" value="b">
+        <label form="b">Egy népszerű kártyajáték</label><br>
+        <input type="radio" id="a" name="kerdes8" value="c">
+        <label form="c">Egy varázslat típus</label><br>
+        <input type="radio" id="a" name="kerdes8" value="d">
+        <label form="d">Egy witcher iskola</label><br>
+</div>
+<div class="container col-5">
+        <p>Miért hívják Geralt-ot 'Fehér Farkasnak'?</p>
+        <input type="radio" id="a" name="kerdes9" value="a">
+        <label form="a">Fehér farkassal utazik</label><br>
+        <input type="radio" id="a" name="kerdes9" value="b">
+        <label form="b">Fehér a haja a mutációk miatt</label><br>
+        <input type="radio" id="a" name="kerdes9" value="c">
+        <label form="c">Fehér páncélt visel</label><br>
+        <input type="radio" id="a" name="kerdes9" value="d">
+        <label form="d">Kaer Morhen szimbóluma a farkas</label><br>
+</div>
+</div>
+
+</form>
+
+<input type="button" class="mx-auto d-block my-3" value="Érékel" onclick="ertekel()"> <br>
 
 </body>
 

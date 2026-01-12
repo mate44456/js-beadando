@@ -36,3 +36,13 @@ Retrieved 2026-01-12, License - CC BY-SA 4.0
   border:1px solid black;
   transition:.3s;
 }
+
+.container{
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px rgb(29, 2, 6);
+    border: #e0e0e0 solid;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
