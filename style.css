@@ -17,3 +17,22 @@ h1, h2 {
     text-align: center;
     color: #e0e0e0;
 }
+
+/*
+Source - https://stackoverflow.com/a
+Posted by Tyler Watts, modified by community. See post 'Timeline' for change history
+Retrieved 2026-01-12, License - CC BY-SA 4.0
+*/
+
+
+
+.card:hover, .img-fluid:hover{
+    box-shadow: 8px 8px 8px rgb(29, 2, 6);
+    transform:scale(1.06);
+}
+
+.card,.img-fluid{
+
+  border:1px solid black;
+  transition:.3s;
+}
